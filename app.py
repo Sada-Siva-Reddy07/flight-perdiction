@@ -29,7 +29,6 @@ def predict():
 	result = model.predict(final)
 	print("The Result is :",result)
 
-
 	print(int_features)
 
 	return render_template("home.html",prediction_text="Flight Price Perdiction is : {}".format(result))
